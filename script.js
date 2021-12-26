@@ -8,8 +8,8 @@ function getdata(){
         let output ="";
         // debugger;
         data.forEach(function(user){
+        // table rows and table data 
             output +=`
-            // table rows and table data 
             <tr>
                 <td scope="col">${user.id}</td>
                 <td scope="col">${user.name}</td> 
